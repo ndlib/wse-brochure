@@ -33,6 +33,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'rb-fsevent' if `uname` =~ /Darwin/
+  gem 'guard-rails'
 end
 
 # Use ActiveModel has_secure_password
