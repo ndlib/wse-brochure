@@ -1,0 +1,115 @@
+$ltgrey :#666;
+$dkgrey :#333;
+
+
+body {
+	background:#666;
+	color:#fff;
+}
+
+.library {
+	background:#2b5781 ;
+	box-shadow: 0 -12px 3px 10px #333;
+}
+
+.library .row {
+	background:image_url("library.banner.jpg") no-repeat right top;
+}
+
+.library a {
+	overflow: hidden;
+	width:170px;
+	padding-top:40px;
+	height:0;
+	display:block;
+	background:image_url("library.png");
+}
+
+.row {
+	max-width: 80em;
+}
+
+.top-bar .name h1 {
+	font-family: 'Leckerli One', cursive;
+	font-size:60px;
+
+	text-shadow: 3px 3px 0px $ltgrey, 5px 5px 0px $dkgrey;
+
+	font-weight: normal;
+}
+
+.top-bar .name h1 a {
+	color:$dkgrey;
+	color:#fff;
+	font-weight: normal;
+}
+
+.top-bar .title-area {
+	float:none;
+	margin:0 auto;
+	display: inline-block;
+}
+
+
+.top-bar .title-area .title-area * {
+	display: inline-block;
+	clear: both;
+	width: auto;
+}
+
+.top-bar {
+	height: auto;
+	text-align: center;
+	background:#fff;
+	background:none;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul {
+	background:none;
+}
+
+.top-bar-section li:not(.has-form) a:hover:not(.button) {
+	background:none;
+}
+
+.top-bar-section ul li > a {
+	color:#333;
+	text-transform: uppercase;
+	font-size:20px;
+}
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+	color:#999;
+
+
+}
+
+footer {
+	background:#333;
+}
+
+.logo {
+	margin:0 auto;
+	width:20%;
+	height:auto;
+	display: block;
+	margin:80px auto 20px;
+}
+
+.banner {
+	width: 100%;
+	background: url(banner1.jpg) no-repeat;
+	background-size:contain;
+	position: absolute;
+	left: 0;
+	top:0;
+	right:0;
+	min-height: 790px;
+	z-index: -1;
+}
+
+
+	.fish {
+		min-width: 500px;
+	}
+
